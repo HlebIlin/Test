@@ -1,6 +1,6 @@
 package AutomationCourse.Ls10;
 
-import PageObject.BasePage;
+import AutomationCourse.PageObject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -68,18 +68,23 @@ public class VarusBakaliaHomePage extends BasePage {
     public WebElement checkPripravu() {
         return getElementByXpath("//*[text()='Приправы и специи']");
     }
+
     public WebElement checkSweetKonserva() {
         return getElementByXpath("//*[text()='Сладкая консервация']");
     }
+
     public WebElement checkSoda() {
         return getElementByXpath("//*[text()='Сода и крахмал']");
     }
+
     public WebElement checkDesigen() {
         return getElementByXpath("//*[text()='Добавки для выпечки и десертов']");
     }
+
     public WebElement checkOrganicProduct() {
         return getElementByXpath("//*[text()='Органические продукты']");
     }
+
     public WebElement checkSushi() {
         return getElementByXpath("//*[text()='Все для суши']");
     }

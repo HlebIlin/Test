@@ -1,6 +1,6 @@
 package AutomationCourse.Ls10;
 
-import PageObject.BasePage;
+import AutomationCourse.PageObject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 

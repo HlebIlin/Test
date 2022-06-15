@@ -1,7 +1,5 @@
 package AutomationCourse.Ls4;
 
-import org.testng.annotations.Test;
-
 import java.util.Scanner;
 
 public class Lesson4 {

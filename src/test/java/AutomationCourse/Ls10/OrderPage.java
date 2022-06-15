@@ -1,6 +1,6 @@
 package AutomationCourse.Ls10;
 
-import PageObject.BasePage;
+import AutomationCourse.PageObject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -9,17 +9,19 @@ public class OrderPage extends BasePage {
         super(driver);
     }
 
-    public WebElement PhoneNumber() {
+    public WebElement phoneNumber() {
         return getElementByXpath("//input[@id='login-data']");
     }
 
-    public WebElement Password() {
+    public WebElement password() {
         return getElementByXpath("//input[@id='login-password']");
     }
-    public WebElement Enter(){
+
+    public WebElement enter() {
         return getElementByXpath("//button[@data-marker='Sign in']");
     }
-    public WebElement goOrderButton(){
+
+    public WebElement goOrderButton() {
         return getElementByXpath("//button[@data-marker='Order']");
     }
 }
