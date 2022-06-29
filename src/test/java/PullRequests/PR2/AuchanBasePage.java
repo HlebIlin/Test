@@ -8,6 +8,7 @@ public class AuchanBasePage extends BasePage {
     public AuchanBasePage(WebDriver driver) {
         super(driver);
     }
+
     public WebElement getSearchField() {
         return getElementByXpath("//input[@type='search']");
     }

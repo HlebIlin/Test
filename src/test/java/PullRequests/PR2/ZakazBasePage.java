@@ -12,6 +12,7 @@ public class ZakazBasePage extends BasePage {
     public void goZakazOpen() {
         driver.get("https://zakaz.ua/ru/");
     }
+
     public WebElement getAuchanBtn() {
         return getElementByXpath("//img[@alt='Auchan']");
     }
