@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CheckZakazList extends TestInit {
     @Test
-    public void checkInfoPayment(){
+    public void checkInfoPayment() {
         ZakazHomePageList zakazHomePageList = new ZakazHomePageList(driver);
         ZakazHelpHomePage zakazHelpHomePage = new ZakazHelpHomePage(driver);
         maximize();

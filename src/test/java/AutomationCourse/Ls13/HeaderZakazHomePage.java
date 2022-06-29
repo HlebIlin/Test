@@ -12,16 +12,20 @@ public class HeaderZakazHomePage extends BasePage {
     public void goZakazOpen() {
         driver.get("https://zakaz.ua/ru/");
     }
-    public WebElement checkLogo(){
+
+    public WebElement checkLogo() {
         return getElementByXpath("//div[@class='jsx-3617752486 Header__leftNavigation']");
     }
-    public WebElement checkLanguage(){
+
+    public WebElement checkLanguage() {
         return getElementByXpath("//a[@href='/uk/']");
     }
-    public WebElement checkPartners(){
+
+    public WebElement checkPartners() {
         return getElementByXpath("//div[@class='jsx-1112415212 DropDownContainer__header']");
     }
-    public WebElement checkChoiceShop(){
+
+    public WebElement checkChoiceShop() {
         return getElementByXpath("//button[text()='Выбрать магазин']");
     }
 }

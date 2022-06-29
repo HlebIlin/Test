@@ -10,10 +10,12 @@ public class ZakazHomePageList extends BasePage {
     public ZakazHomePageList(WebDriver driver) {
         super(driver);
     }
+
     public void goZakazOpen() {
         driver.get("https://zakaz.ua/ru/");
     }
-    public List<WebElement> getHelpInHeaderBtn(){
+
+    public List<WebElement> getHelpInHeaderBtn() {
         return getElementsByXpath("//a[@href='/ru/help/']");
     }
 
