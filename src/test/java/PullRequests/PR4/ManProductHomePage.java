@@ -10,6 +10,7 @@ public class ManProductHomePage extends BasePage {
     public ManProductHomePage(WebDriver driver) {
         super(driver);
     }
+
     public List<WebElement> CheckHudiNB() {
         return getElementsByXpath("//span[@class='cart-icon']");
     }
