@@ -1,6 +1,6 @@
-package AutomationCourse.Ls13;
+package PullRequests.PR7;
 
-import AutomationCourse.PageObject.BasePage;
+import PageObject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 

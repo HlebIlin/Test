@@ -1,7 +1,6 @@
-package AutomationCourse.Ls13;
+package PullRequests.PR7;
 
 import TestInit.TestInit;
-import org.checkerframework.checker.units.qual.A;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,10 +1,8 @@
 package PullRequests.PR5;
 
-import AutomationCourse.PageObject.BasePage;
+import PageObject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class YesOriginalHomePage1 extends BasePage {
     public YesOriginalHomePage1(WebDriver driver) {

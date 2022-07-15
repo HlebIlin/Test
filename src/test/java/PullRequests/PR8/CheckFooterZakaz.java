@@ -1,4 +1,4 @@
-package AutomationCourse.Ls12;
+package PullRequests.PR8;
 
 import TestInit.TestInit;
 import org.testng.Assert;
