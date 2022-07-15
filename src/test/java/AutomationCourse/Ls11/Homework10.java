@@ -14,7 +14,7 @@ public class Homework10 {
         System.out.println("Q-tyOfValues " + numbers.length);
 
 
-        String[] nameFriends = {"Petyx", "Kyro4ka", "MamkinBogaturb", "SvetaT"};
+        String[] nameFriends = {"Petyx", "Kyro4ka", "MamkinBogaturb", "Sveta"};
         System.out.println(Arrays.toString(nameFriends));
 
     }
