@@ -1,0 +1,19 @@
+package PullRequests.PR4;
+
+import AutomationCourse.PageObject.BasePage;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
+
+public class YesOriginalHomePage extends BasePage {
+    public YesOriginalHomePage(WebDriver driver) {
+        super(driver);
+    }
+    public void goYesOriginal(){
+        driver.get("https://yesoriginal.com.ua/ru");
+    }
+    public WebElement CheckManCatalogIMG() {
+        return getElementByXpath("//img[@src='/image/catalog/yesoriginal/man.webp']");
+    }
+}

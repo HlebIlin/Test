@@ -18,11 +18,10 @@ public class TestInit {
 
     }
 
-    public void maximize (){
+    public void maximize() {
 
         driver.manage().window().maximize();
     }
-
 
 
     @AfterMethod
@@ -31,12 +30,17 @@ public class TestInit {
     }
 
 
-    public void sleep(int seconds){
+    public void sleep(int seconds) {
         try {
             Thread.sleep(seconds * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    protected String getURL() {
+        return driver.getCurrentUrl();
+
     }
 
 }

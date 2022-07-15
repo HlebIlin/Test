@@ -1,6 +1,7 @@
 package PullRequests.PR3;
 
 import TestInit.TestInit;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CheckSupportVSU extends TestInit {
@@ -16,7 +17,8 @@ public class CheckSupportVSU extends TestInit {
         homePagePayment.getMMYYBtn().sendKeys("1234\n");
         homePagePayment.getCardCVVbtn().sendKeys("123\n");
         homePagePayment.getPayBtn().get(0);
-
+        Assert.assertTrue(homePagePayment.getCardCVVbtn().isDisplayed());
+        Assert.assertTrue(getURL().contains("liqpay"));
 
     }
 
